@@ -91,8 +91,16 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-react"
     },
     {
+      skillName: "vue",
+      fontAwesomeClassname: "fab fa-vuejs"
+    },
+    {
+      skillName: "Angular",
+      fontAwesomeClassname: "fab fa-angular"
+    },
+    {
       skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
+      fontAwesomeClassname: "fab fa-node-js"
     },
     {
       skillName: "swift",
@@ -160,15 +168,15 @@ const techStack = {
   experience: [
     {
       Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
+      progressPercentage: "96%" //Insert relative proficiency in percentage
     },
     {
       Stack: "Backend",
-      progressPercentage: "70%"
+      progressPercentage: "88%"
     },
     {
       Stack: "Programming",
-      progressPercentage: "60%"
+      progressPercentage: "72%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
