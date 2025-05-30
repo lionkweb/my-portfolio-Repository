@@ -1,7 +1,7 @@
 import React, {useContext} from "react";
 import "./Footer.scss";
 import {Fade} from "react-reveal";
-import emoji from "react-easy-emoji";
+// import emoji from "react-easy-emoji";
 import StyleContext from "../../contexts/StyleContext";
 
 export default function Footer() {
@@ -16,7 +16,7 @@ export default function Footer() {
           &copy; {new Date().getFullYear()} Portfolio for{" "}
           <a
             href="https://github.com/lionkweb/my-portfolio-Repository"
-            target="_blank"
+            // target="_blank"
             rel="noreferrer"
           >
             Halil can Derinoğlu
