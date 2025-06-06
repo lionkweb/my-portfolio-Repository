@@ -25,9 +25,8 @@ const greeting = {
   subTitle: emoji(
     "Innovative Web Developer 🚀 with 5+ years of experience building high-performance, user-focused web applications using modern technologies like React, Vue, Node.js, and WordPress, with a strong focus on clean code, responsive design, and scalable full-stack solutions across both creative and enterprise environments."
   ),
-  resumeLink:
-    // "./resume.pdf",
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+  resumeLink: "./resume.pdf",
+  // "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -36,16 +35,12 @@ const greeting = {
 const socialMediaLinks = {
   github: "https://github.com/lionkweb",
   // linkedin: "https://www.linkedin.com/in/saadpasta/",
-  linkedin: "https://www.linkedin.com/in/",
+  linkedin: "http://linkedin.com/in/halil-derinoglu-1b97b2369/",
   gmail: "idepata123@gmail.com",
   // gitlab: "https://gitlab.com/saadpasta",
-  gitlab: "https://gitlab.com/",
   // facebook: "https://www.facebook.com/saad.pasta7",
-  facebook: "https://www.facebook.com/",
   // medium: "https://medium.com/@saadpasta",
-  medium: "https://medium.com/",
   // stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
-  stackoverflow: "https://stackoverflow.com/",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -188,10 +183,10 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Frontend Web Developer",
+      role: "Frontend Developer",
       company: "Masu Business Software Outsourcing",
       companylogo: require("./assets/images/Masu-logo.png"),
-      date: "March 2020 – February 2022 (2 years)",
+      date: "October 2017 – December 2019 (2 years)",
       desc: "As a Frontend Developer at Masu Business Software Outsourcing, I specialized in crafting responsive and visually engaging user interfaces for a variety of e-commerce and corporate websites. I focused on performance, accessibility, and cross-browser compatibility.",
       descBullets: [
         "Developed a custom Vue.js component system used in over 20 client websites",
@@ -200,24 +195,29 @@ const workExperiences = {
       ]
     },
     {
-      role: "Full-Stack Web Developer",
-      company: "BilgeAdam Technologies",
-      companylogo: require("./assets/images/BilgeAdam-Technologies-Logo.png"),
-      date: "March 2022 – February 2025",
-      desc: "At BilgeAdam Technologies, I worked as a Full-Stack Web Developer, contributing to the full lifecycle of modern web applications — from design and development to deployment and optimization. I collaborated closely with UI/UX designers, product managers, and backend teams to build scalable web apps for startups and enterprise clients.",
+      role: "Fullstack Developer",
+      company: "hedgehog lab",
+      companylogo: require("./assets/images/hhl-logo.png"),
+      date: "May 2020 – March 2022 (2 years)",
+      desc: "At hedgehog lab, I worked remotely as a Fullstack Developer building scalable web apps across fintech and healthcare sectors. I collaborated across distributed teams to design end-to-end features using modern technologies.",
       descBullets: [
-        "Reduced average page load time by 42% through code-splitting and lazy-loading techniques",
-        "Improved development efficiency by creating reusable component libraries",
-        "Mentored junior developers and introduced Git branching best practices"
+        "Built RESTful APIs with Node.js and integrated them with responsive React UIs",
+        "Developed reusable components and hooks, reducing frontend code duplication by 40%",
+        "Implemented OAuth2 and JWT authentication systems for secure login flows"
+      ]
+    },
+    {
+      role: "Senior Software Engineer",
+      company: "Igalia",
+      companylogo: require("./assets/images/Igalia.png"),
+      date: "April 2022 – March 2025 (3 years)",
+      desc: "As a remote Senior Software Engineer at Igalia, I contributed to browser engine components and web standards initiatives. I worked in open-source ecosystems and led asynchronous project teams focused on accessibility and performance.",
+      descBullets: [
+        "Contributed to open-source browser features in Chromium and WebKit",
+        "Led cross-functional remote teams to deliver standards-compliant HTML/CSS patches",
+        "Improved rendering performance by 15% through optimized WebAssembly integration"
       ]
     }
-    // {
-    //   role: "Software Engineer Intern",
-    //   company: "Airbnb",
-    //   companylogo: require("./assets/images/airbnbLogo.png"),
-    //   date: "Jan 2015 – Sep 2015",
-    //   desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    // }
   ]
 };
 
@@ -245,7 +245,6 @@ const bigProjects = {
           name: "Visit Website",
           url: "https://www.apple.com/itunes/"
         }
-        //  you can add extra buttons here.
       ]
     },
     {
@@ -425,6 +424,6 @@ export {
   podcastSection,
   contactInfo,
   twitterDetails,
-  isHireable,
-  resumeSection
+  isHireable
+  // resumeSection
 };

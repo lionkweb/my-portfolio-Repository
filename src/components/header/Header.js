@@ -22,7 +22,7 @@ function Header() {
   // const viewAchievement = achievementSection.display;
   const viewBlog = blogSection.display;
   // const viewTalks = talkSection.display;
-  const viewResume = resumeSection.display;
+  // const viewResume = resumeSection.display;
 
   return (
     <Headroom>
@@ -76,11 +76,11 @@ function Header() {
               <a href="#talks">Talks</a>
             </li>
           )} */}
-          {viewResume && (
+          {/* {viewResume && (
             <li>
               <a href="#resume">Resume</a>
             </li>
-          )}
+          )} */}
           <li>
             <a href="#contact">Contact Me</a>
           </li>
