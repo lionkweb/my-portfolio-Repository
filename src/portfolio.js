@@ -229,7 +229,7 @@ const openSource = {
   display: true // Set false to hide this section, defaults to true
 };
 
-// Some big projects you have worked on
+// My big projects I have worked on
 
 const bigProjects = {
   title: "Big Projects",
